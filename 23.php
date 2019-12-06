@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-include "ep.php";
+include "function.php";
 echo color("red"," ===========================\n");
 echo color("red","| Claim Voucher Gojek|\n");
 echo color("red","| Auto create Gojek X Redeem voucher |\n");
@@ -10,7 +10,6 @@ echo color("red","| Creator : kumpulanremaja.com          |\n");
 echo "| Version : Premium X pertalite      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
-
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
@@ -23,7 +22,6 @@ echo " ===========================\n";
         $nohp = str_replace(")","",$nohp);
         $nohp = str_replace("-","",$nohp);
         $nohp = str_replace(" ","",$nohp);
-
         if (!preg_match('/[^+0-9]/', trim($nohp))) {
             if (substr(trim($nohp),0,3)=='62') {
                 $hp = trim($nohp);
@@ -79,7 +77,22 @@ echo " ===========================\n";
         $messageboba10 = fetch_value($boba10,'"message":"','"');
         if(strpos($boba10, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messageboba10);
-		
+        goto goride;
+        }else{
+        echo "\n".color("red","-] Message: ".$messageboba10);
+        echo "\n".color("yellow","!] Claim voc GOFOODSANTUY08");
+        echo "\n".color("yellow","!] Please wait");
+        for($a=1;$a<=3;$a++){
+        echo color("yellow",".");
+        sleep(1);
+        }
+        sleep(3);
+        $boba19 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI08"}');
+        $messageboba19 = fetch_value($boba19,'"message":"','"');
+        if(strpos($boba19, 'Promo kamu sudah bisa dipakai.')){
+        echo "\n".color("green","+] Message: ".$messageboba19);
+        goto goride;
+        }
         sleep(3);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
@@ -149,5 +162,4 @@ echo " ===========================\n";
          goto ulang;
          }
 //  }
-
 // echo change()."\n";
