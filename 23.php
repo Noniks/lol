@@ -1,27 +1,17 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "ep.php";
-echo color("red","                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                          
-                       +oooooooo`                          oooooooo+                          -oooooooo:                          /oooooooo.                          ooooooooo                          `oooooooo/                                       
-                 `sssss/::::::::sss+                 :sssss::::::::/sss:                 +sssso::::::::+sss`                 sssss/::::::::osso                 .sssss:::::::::sss/                 /sssso::::::::/sss.                                   
-                ys-----`        .--/y/             .y+-----         ---+y.             /y/----.        `---sy              oy-----`        .--:y+             `yo-----         ---+y-             -y+----.        `---oy`                                 
-            ``oy.`       hhh+`      .+y-`       ``ys.`                 `.sy``       `-y/.       ````       `.yo``       `+y-.     ``yhhhhhh-   .:y/`       ``sy.`                 `.oy.`       `.yo.`                 `.ys``                              
-          `./y:`       `.mmmmd:      ``oy..   `.oy``     ...`   `...     ``yo.`   ..yo``        /yyy         `:y/.`   .:y/`       odmmhhhhh-    ``+y-.   `.+y-`       .......       ``ss.`   `.ss``   `..` `......`     `-y+.`                            
-          -d+`         ydmmydm:        ``hy   +d-`       yddy---yddy       `-d+   yh``          ````           `+d-  .do`         smmd`````       ``yd   /d/`       .-hdssshd:-       `.ds   sd.`     yddy-+dysdddy-`     `/d/                            
-          -m+          hmyo`+m+-         dh   om-        hmmmdhsyyys        -mo   hd            .---            +m-  .ms        `-ymmd---.          hm   /m:      .-ydys```/ydd--      `my   ym`      hmmdssy:`symmd+      :m/                            
-         :/s:        .:hm   /mmm.        oo:::+s.        hmmds:             .s+:::oo            ommm            :s/::/s/        -sdmmmsss:          +s:::+s-      :sss`      hmmy      `so:::os`      hmmh      `mmm+      -s+:`                          
-        `my          ommm   -ohm.         .mmm/          hmmy                 /mmm.             ommm              ymmh            smmd                mmmo            ///////dmmh        -mmm-        hmmh      `mmm+        om-                          
-        `my          ommmooooohmo+        .mmm/          hmmy                 /mmm.             ommm              ymmh            smmd                mmmo        -ooomd/////dmmh        -mmm-        hmmh      `mmm+        om-                          
-        `my        -shmmmmmmmmmmmd        .mmm/          hmmy                 /mmm.             ommm              ymmh            smmd                mmmo        +mmm/:     hmmh        :mmm:        hmmh      `mmm+        om-                          
-         -/y:      :mmm/------ydmd`      ss---+y.        hmmy               .y+---ss            ommm            :y/--:y+          smmd              oy---+y-      +m+:`````/ydmmh      `yo---oy`      hmmh      `mmm+      -y+-`                          
-          -d+`    `/mdd.      .-dmyo   ``hy   +d-`       ydds              `-d+   yh``          ommm           `+d-  .do`         smmd            ``yd   /d/`     /dysyyyyyhddddy     `.ds   sd.`     yddy      `ddd/     `/d/                            
-          `.+h-  `hdm+.         hmmy`` oh-.   `.sh       ...`              hs.`   .-ho          ommm          -h+.`   ./h:        smmd            +h:.   `.oh`    `...hdddd+....`     yh.`   `.hy     `..`       ...`    `ho.`                            
-            /h:. `hhh/          yhhhy/.sh`      sh.`                     `.hs      `hs.`        +hhh         .:h/      :h/.       ohhh          `.oh.      oh-.       `````         `.yh       hy.`                     .-ho                              
-              oy---.              ---+y-          ys---`             `---sy          -y+---              .---yo          /y:--.              ---/y:          sy---`             `---oy`         `yo---`             `---ys                                
-                ssso::::::::::::::sss:             .sss/:::::::::::::/sss.             :sss::::::::::::::osss              +sso::::::::::::::sss/             `sss+:::::::::::::/sss-             -sss/:::::::::::::+sss`                                 
-                   -oooooooooooooo                     /ooooooooooooo/                     oooooooooooooo-                    `oooooooooooooo                     :ooooooooooooo+                     +ooooooooooooo:                                     
-                                                                                                                                                                                                                                             \n");
+echo color("red","                                   .`   `.::.                                                   
+                                      `/-  `//`                                                     
+                       ````     ` ```  `  `.+:``   `````    `  ````            ``      ``           
+                     `::-::/.  `o:::-``o. .:s+:-``::-::/-  `+/:-::/:`          .+`    `/-           
+                     `` ```:+` .y/`   `s-  `+:    ` ```-o` `s/`   `+:           //`  `//`           
+                     .-:---:+. .s.    `s-  `+:   .:::---s. `o-     //           `/: `:/`            
+                    `+-    -o. .s.    `s-  `+:  `o.    -s. `o-     //            .+.-/`             
+                    `::---:/o. .s.    `s-  `+:  `:/---:/s. `o-     //             .o/.              
+                      `...```` `.`     .`   ``    `...``.`  .`     `` ........`   .+.               
+                                                                      --------.` ./.                
+                                                                                 ``   \n");
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
 // function change(){
