@@ -1,63 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "ep.php";
-echo color("red","                                                                                         
-                                                                                                    
-                                                                                                    
-                                               `:-`             `/.                                 
-                                                -so-`           -ys`                                
-                                                 +sy/          .oyy:          `                     
-                                 `--`            +yys`       `-osss-         .s.                    
-                                  ./s+-         .syyy`    `.:osssyo`       `:sy.                    
-                                    :yy/`      -syyyo:::/+ossssyyy-`````.-/osss`                    
-                                     /yy+   `-oyyyyyyssssssssyyyyysssoooosssss:                     
-                         `..`        .yyy:./syhhhyyyyyysssyyyyyyyyyyyyssssssss/-.````.:/`           
-                         `./o+:`     -yyyyyhhhhhyyyyyyyyssyyyyyyyyyyyysssssssssssooooos:            
-                            .oys:`  `oyyyyyhhhhyyyyyyyyysssssssssssssssyyyyyyyyyysssss:`            
-                             `/yy+``+yyyyyyhhhyyyyyyyyyysssssssssssssssyyyyyyyyysysso-              
-                              `+yyooyyyyyyhyyyyyyyyyyyyyyssssssssssssssyyyyyyyyyyyyo-.``            
-                         `     -yyyyyyyyyyyyyyysssyyyyyyysssssssssssssssyyyyyyyyyyyssoo+:-`         
-                        `/o:`  -yyyyyyyyyyyyyyyssssssyyyysssssssssssssssyyyyyyyyyyyyyssssso:`       
-                         `ohs: /hyyyyyyyyyyyyyhysssssysssoossssssssssssssyyyyyyyysyyyyyssssso.      
-                          .yhh+yyyyyyyyyyyyyyyhhsssso+-..``.-/osyyysssssyyyyyyyyyyyyyyyssooooo.     
-                           /hhhyysoyyyyyyyyyyyhhyss/`         `/syyyssssyyysssssyyyyyyy/.```...     
-                           `yyyyy+-yyyyyyyyyyyhhhy:             +yyyyssyyysssssssyyyyyys:`          
-       .`                   +yyys.`syyyyyyyhhhhhhy`             -yyyyyyssssssssssssyyyyss:          
-      .y.                   -yyy- -yyyyyhhhhhhhhhy.             .hyyyyysssssssssssssssssss/`        
-      od:                   .yyy:/yyyyyyyyyyyyyyhh+`            :hyyyyyyssssssssssyysssssss:        
-     .hh+                    +yyyyyyyyysssyyyyyyyyyo`           oyyyyyyyssssssssssyyssssssss`       
-     :hhy`                   +yyyyyyyy+-../yyyyyyyho`          -yyyssyyyyssssssssyyyssssssss:       
-     +hhh:                +..yyyyyyyoo+-`:yysyyyhhy-          .syysssssyyssssssssyyyssssssss+       
-     ohhhs`              `shshhyyyyyo`  :yy/`oyyyh+          .syysssssssyysssssssyyysssoossso       
-     +hhhh:              `yhhhhhyyo:/:`.yy:``+yyyy.         -syysoosssssssssssssssyysss-`-os/       
-     :hhhhy`             `yhhhhhhyy+`  yh: -+oyyy+        `/yys/.`osssssssssssssssyysso`  `o-       
-     .hhdhho`            `hhhhyys/:/-`.hs  .:oyyy-      `/oo/-`  .sssssssssssyyyyyyssy-    `        
-      odddhh/            `yhhyyo+o+-` .d/  -/oyhy/`     ``       :ssssssssssyyyyyyyss/              
-      .dddhhh/            /hdhyyo:-`  `h+-+sysyyyo-             `syyysssssssyyyssyyso`              
-       /dddhhh+`           -oy////-`   ys`````:/-`              /yyyyyyyssssyysssyyo`               
-        oddddddo`            `         y+:                     :yyyyyyyyyysssssssso.                
-        `sddddddy:                    :/`:.                   :yyhhhhhhhyyyyysssso.                 
-         `oddddddho.                `--   ``                `+yhhhhhhhhhyyyyysss/`                  
-          `/hddddddh+.              ``                    `:syyyyhhyyyyyyyyyyss:`                   
-            -ydddhhhyyo:`                               `:syyhyyyyyssyyyyyyys+.                     
-             `+yhhyyyyyyy+:.                         `-+shyyyyysssssssssyyyo-`                      
-               .oyhhhyyyyhhys/:.`              ``.:+syyyyyyyyssssssssssss+-`                        
-                `-ohhhhhyhhhyyyyso+/::---:://+osyhhhhhhhhhyyyyyyyyyyyys+-`                          
-                  `-ohhhhyyyyyyyyyyyyyyyyyhhyyyyhhhhhhhhhyyyyyyyyyys+:.                             
-                     ./shyyyyyyyyyyyyyyyyyyhyyyyyhhhhhhhyyyyyyyso+-.                                
-                       `./osyyyyyyyyyyyyyyyyhyyyyyyyhhhyyyyso/-.`                                   
-                           `-:+ossssyyyyyhhhdhhyyyyssso+:-.`                                        
-                                ``..---::////::---..``                                              
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                        \n");
+echo color("red","   1---------------------\n");
 echo color("red","| Claim Voucher Gojek|\n");
 echo color("red","| Auto create Gojek X Redeem voucher |\n");
 echo color("red","| github: kumpulanremaja |\n");
