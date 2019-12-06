@@ -1,16 +1,66 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-include "ep.php";
-echo color("red"," ===========================\n");
-echo color("red","| Claim Voucher Gojek|\n");
-echo color("red","| Auto create Gojek X Redeem voucher |\n");
-echo color("red","| github: kumpulanremaja |\n");
-echo color("red","| fanspage :4kumpulanremaja|\n");
-echo color("red","| Creator : kumpulanremaja.com          |\n");
-echo "| Version : Premium X pertalite      |\n";
+include "function.php";
+echo color("red","                                                                                         
+                                                                                                    
+                                                                                                    
+                                               `:-`             `/.                                 
+                                                -so-`           -ys`                                
+                                                 +sy/          .oyy:          `                     
+                                 `--`            +yys`       `-osss-         .s.                    
+                                  ./s+-         .syyy`    `.:osssyo`       `:sy.                    
+                                    :yy/`      -syyyo:::/+ossssyyy-`````.-/osss`                    
+                                     /yy+   `-oyyyyyyssssssssyyyyysssoooosssss:                     
+                         `..`        .yyy:./syhhhyyyyyysssyyyyyyyyyyyyssssssss/-.````.:/`           
+                         `./o+:`     -yyyyyhhhhhyyyyyyyyssyyyyyyyyyyyysssssssssssooooos:            
+                            .oys:`  `oyyyyyhhhhyyyyyyyyysssssssssssssssyyyyyyyyyysssss:`            
+                             `/yy+``+yyyyyyhhhyyyyyyyyyysssssssssssssssyyyyyyyyysysso-              
+                              `+yyooyyyyyyhyyyyyyyyyyyyyyssssssssssssssyyyyyyyyyyyyo-.``            
+                         `     -yyyyyyyyyyyyyyysssyyyyyyysssssssssssssssyyyyyyyyyyyssoo+:-`         
+                        `/o:`  -yyyyyyyyyyyyyyyssssssyyyysssssssssssssssyyyyyyyyyyyyyssssso:`       
+                         `ohs: /hyyyyyyyyyyyyyhysssssysssoossssssssssssssyyyyyyyysyyyyyssssso.      
+                          .yhh+yyyyyyyyyyyyyyyhhsssso+-..``.-/osyyysssssyyyyyyyyyyyyyyyssooooo.     
+                           /hhhyysoyyyyyyyyyyyhhyss/`         `/syyyssssyyysssssyyyyyyy/.```...     
+                           `yyyyy+-yyyyyyyyyyyhhhy:             +yyyyssyyysssssssyyyyyys:`          
+       .`                   +yyys.`syyyyyyyhhhhhhy`             -yyyyyyssssssssssssyyyyss:          
+      .y.                   -yyy- -yyyyyhhhhhhhhhy.             .hyyyyysssssssssssssssssss/`        
+      od:                   .yyy:/yyyyyyyyyyyyyyhh+`            :hyyyyyyssssssssssyysssssss:        
+     .hh+                    +yyyyyyyyysssyyyyyyyyyo`           oyyyyyyyssssssssssyyssssssss`       
+     :hhy`                   +yyyyyyyy+-../yyyyyyyho`          -yyyssyyyyssssssssyyyssssssss:       
+     +hhh:                +..yyyyyyyoo+-`:yysyyyhhy-          .syysssssyyssssssssyyyssssssss+       
+     ohhhs`              `shshhyyyyyo`  :yy/`oyyyh+          .syysssssssyysssssssyyysssoossso       
+     +hhhh:              `yhhhhhyyo:/:`.yy:``+yyyy.         -syysoosssssssssssssssyysss-`-os/       
+     :hhhhy`             `yhhhhhhyy+`  yh: -+oyyy+        `/yys/.`osssssssssssssssyysso`  `o-       
+     .hhdhho`            `hhhhyys/:/-`.hs  .:oyyy-      `/oo/-`  .sssssssssssyyyyyyssy-    `        
+      odddhh/            `yhhyyo+o+-` .d/  -/oyhy/`     ``       :ssssssssssyyyyyyyss/              
+      .dddhhh/            /hdhyyo:-`  `h+-+sysyyyo-             `syyysssssssyyyssyyso`              
+       /dddhhh+`           -oy////-`   ys`````:/-`              /yyyyyyyssssyysssyyo`               
+        oddddddo`            `         y+:                     :yyyyyyyyyysssssssso.                
+        `sddddddy:                    :/`:.                   :yyhhhhhhhyyyyysssso.                 
+         `oddddddho.                `--   ``                `+yhhhhhhhhhyyyyysss/`                  
+          `/hddddddh+.              ``                    `:syyyyhhyyyyyyyyyyss:`                   
+            -ydddhhhyyo:`                               `:syyhyyyyyssyyyyyyys+.                     
+             `+yhhyyyyyyy+:.                         `-+shyyyyysssssssssyyyo-`                      
+               .oyhhhyyyyhhys/:.`              ``.:+syyyyyyyyssssssssssss+-`                        
+                `-ohhhhhyhhhyyyyso+/::---:://+osyhhhhhhhhhyyyyyyyyyyyys+-`                          
+                  `-ohhhhyyyyyyyyyyyyyyyyyhhyyyyhhhhhhhhhyyyyyyyyyys+:.                             
+                     ./shyyyyyyyyyyyyyyyyyyhyyyyyhhhhhhhyyyyyyyso+-.                                
+                       `./osyyyyyyyyyyyyyyyyhyyyyyyyhhhyyyyso/-.`                                   
+                           `-:+ossssyyyyyhhhdhhyyyyssso+:-.`                                        
+                                ``..---::////::---..``                                              
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                        \n");
+
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
-
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
@@ -23,7 +73,6 @@ echo " ===========================\n";
         $nohp = str_replace(")","",$nohp);
         $nohp = str_replace("-","",$nohp);
         $nohp = str_replace(" ","",$nohp);
-
         if (!preg_match('/[^+0-9]/', trim($nohp))) {
             if (substr(trim($nohp),0,3)=='62') {
                 $hp = trim($nohp);
@@ -55,32 +104,69 @@ echo " ===========================\n";
         echo color("green","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
         echo color("red","\n===========(REDEEM VOUCHER)===========");
-        echo "\n".color("yellow","!] Claim voc GOFOODHEMAT");
+        echo "\n".color("yellow","!] Claim voc GOFOODSANTUY19");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI11"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI19"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","+] Message: ".$message);
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        echo "\n".color("yellow","!] Claim voc GOFOODSANTUY19");
+        echo "\n".color("yellow","!] Claim voc GOFOODSANTUY11");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-       
-        
+        sleep(1);
+        }
         sleep(3);
-        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI19"}');
+        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI11"}');
         $messageboba10 = fetch_value($boba10,'"message":"','"');
         if(strpos($boba10, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messageboba10);
         goto goride;
-        }        sleep(3);
+        }else{
+        echo "\n".color("red","-] Message: ".$messageboba10);
+        echo "\n".color("yellow","!] Claim voc GOFOODSANTUY08");
+        echo "\n".color("yellow","!] Please wait");
+        for($a=1;$a<=3;$a++){
+        echo color("yellow",".");
+        sleep(1);
+        }
+        sleep(3);
+        $boba19 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI08"}');
+        $messageboba19 = fetch_value($boba19,'"message":"','"');
+        if(strpos($boba19, 'Promo kamu sudah bisa dipakai.')){
+        echo "\n".color("green","+] Message: ".$messageboba19);
+        goto goride;
+        }else{
+        echo "\n".color("green","+] Message: ".$messageboba19);
+        goride:
+        echo "\n".color("yellow","!] Claim voc AYOCOBAGOJEK");
+        echo "\n".color("yellow","!] Please wait");
+        for($a=1;$a<=3;$a++){
+        echo color("yellow",".");
+        sleep(1);
+        }
+        sleep(3);
+        $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"AYOCOBAGOJEK"}');
+        $message1 = fetch_value($goride,'"message":"','"');
+        echo "\n".color("green","+] Message: ".$message1);
+        echo "\n".color("yellow","!] Claim voc COBAINGOJEK");
+        echo "\n".color("yellow","!] Please wait");
+        for($a=1;$a<=3;$a++){
+        echo color("yellow",".");
+        sleep(1);
+        }
+        sleep(3);
+        $goride1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAINGOJEK"}');
+        $message2 = fetch_value($goride1,'"message":"','"');
+        echo "\n".color("green","+] Message: ".$message2);
+        sleep(3);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
         $voucher3 = getStr1('"title":"','",',$cekvoucher,"3");
@@ -149,5 +235,4 @@ echo " ===========================\n";
          goto ulang;
          }
 //  }
-
 // echo change()."\n";
